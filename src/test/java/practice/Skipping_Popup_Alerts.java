@@ -22,6 +22,8 @@ public class Skipping_Popup_Alerts {
 		//Skiping the popups
 	       String text=driver.findElement(By.cssSelector("p")).getText();
 	       System.out.println(text);
+	       
+	       System.out.println("Name");
 		
 		
 		
